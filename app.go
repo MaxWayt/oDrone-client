@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/maxwayt/odrone-client/commands"
+	"github.com/wayt/odrone-client/commands"
 	"os"
 )
 
@@ -27,5 +27,7 @@ func main() {
 		commands.Info()
 	case "package":
 		commands.Package()
+	case "install":
+		commands.Install()
 	}
 }

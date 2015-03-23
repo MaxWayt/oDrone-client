@@ -3,7 +3,7 @@ package commands
 import (
 	"flag"
 	"fmt"
-	"github.com/maxwayt/odrone-client/query"
+	"github.com/wayt/odrone-client/query"
 	"os"
 )
 
